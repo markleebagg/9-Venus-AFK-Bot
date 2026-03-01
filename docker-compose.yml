@@ -4,8 +4,8 @@ services:
     container_name: aternos-afk-bot
     restart: unless-stopped
     environment:
-      - MC_HOST=TheHulagens.aternos.me
-      - MC_PORT=40436
+      - MC_HOST=9-VenusSMP.aternos.me
+      - MC_PORT=50629
       - MC_USERNAME=AFKBot
     volumes:
       # Persist Microsoft auth tokens so you don't have to re-login
