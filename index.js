@@ -4,7 +4,7 @@ const bedrock = require('bedrock-protocol');
 const config = {
   host: process.env.MC_HOST || '9-VenusSMP.exaroton.me',
   port: parseInt(process.env.MC_PORT) || 55662, // Default Bedrock port
-  username: process.env.MC_USERNAME || 'marklism556',
+  username: process.env.MC_USERNAME || 'emeraldgod3v',
   offline: false, // Microsoft auth always required for Bedrock
   profilesFolder: './auth', // Persistent auth storage
   // AFK Mode: 'passive' (stay connected silently) or 'active' (send chat/movements)
