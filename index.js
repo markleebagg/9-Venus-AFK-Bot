@@ -10,8 +10,6 @@ app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
 
-// --- YOUR EXISTING BOT CODE STARTS HERE ---
-// (e.g., const mineflayer = require('mineflayer')...)
 const bedrock = require('bedrock-protocol');
 
 // Configuration
