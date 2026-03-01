@@ -3,8 +3,8 @@ const bedrock = require('bedrock-protocol');
 // Configuration
 const config = {
   host: process.env.MC_HOST || 'TheHulagens.aternos.me',
-  port: parseInt(process.env.MC_PORT) || 19132, // Default Bedrock port
-  username: process.env.MC_USERNAME || 'AFKBot',
+  port: parseInt(process.env.MC_PORT) || 40436, // Default Bedrock port
+  username: process.env.MC_USERNAME || 'emeraldgod3v',
   offline: false, // Microsoft auth always required for Bedrock
   profilesFolder: './auth', // Persistent auth storage
   // AFK Mode: 'passive' (stay connected silently) or 'active' (send chat/movements)
