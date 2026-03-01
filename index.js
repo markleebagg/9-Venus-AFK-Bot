@@ -165,10 +165,3 @@ console.log(`Mode:   ${config.afkMode.toUpperCase()}`);
 console.log('='.repeat(50));
 
 connect();
-
-const port = process.env.PORT || 3000;
-
-app.listen(port, () => {
-  console.log(`Server running on port ${port}`);
-});
-
