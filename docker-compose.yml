@@ -4,9 +4,9 @@ services:
     container_name: aternos-afk-bot
     restart: unless-stopped
     environment:
-      - MC_HOST=9-VenusSMP.aternos.me
+      - MC_HOST=VenusWorldSMP.aternos.me
       - MC_PORT=50629
-      - MC_USERNAME=AFKBot
+      - MC_USERNAME=Venus Bot
     volumes:
       # Persist Microsoft auth tokens so you don't have to re-login
       - ./auth:/app/auth
